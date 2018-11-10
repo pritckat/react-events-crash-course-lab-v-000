@@ -13,7 +13,7 @@ export default class ChromeBoisDomain extends Component {
   }
 
   handleKeyPress = (event) => {
-    
+
   }
 
   render() {
@@ -21,7 +21,7 @@ export default class ChromeBoisDomain extends Component {
       <canvas
         onMouseMove={this.handleMouseMove}
         onClick={this.handleClick}
-        onKeyPress=(this.handleKeyPress)
+        onKeyPress={this.handleKeyPress}
         width='900'
         height='600'
         tabIndex="0">
